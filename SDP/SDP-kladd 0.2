@@ -1,0 +1,210 @@
+------------------------------------------------------------------------------------
+Innehållsförteckning:  Notera att detta är i exakt samma ordning som exempel-SDP:n
+	Inledning
+	Referensdokument
+	Utvecklingsplan
+	Personalorganisation
+	
+------------------------------------------------------------------------------------
+Inledning
+	Detta dokument beskriver utvecklingsmodell och utvecklingsplan för tidsrapporteringssystemet e-pusp. <--- Not: detta är direkt stulet
+	Beskriv funktionen
+	Beskriv vilka vi som utvecklar systemet är
+------------------------------------------------------------------------------------
+Referensdokument
+	Referera här baseblock system dokumente(t/n). Eller va? Referens till handledningen kanske?
+------------------------------------------------------------------------------------
+Utvecklingsplan
+	Beroende på vad det är som refereras i föregående stycke så förändras innehållet här.
+	Med antagande att det är handledningen som refereras:
+	Skriv om något möte/dokument utgår
+	Tabell över dokumenten som kommer produceras
+	Skriv ingenting om tidsågång här, detta är endast avsatt för -hur- projektet går till.
+------------------------------------------------------------------------------------
+Personalorganisation
+	Skriv först en lista över vilka som ingår i projektet.
+	Skriv Sedan nya stycken för varje inblandad part	
+
+	Kund
+	Kvalitetsutvärderare
+	Sektionschef
+	Experter
+	Förändringskontrollgrupp
+	Projektledargrupp
+	Systemgrupp
+	Utvecklingsgrupp
+	Testgrupp
+	
+	Ansvarsområden:
+Projektgruppen om sexton personer är uppdelad i fyra undergrupper:
+Utvecklningsgruppen (UG): Ansvarar för programmeringen och är delaktiga i utvecklandet av SRS och STLDD.
+Namn-namn-namn
+
+Systemgruppen (SG): Ansvarar för SRS och STLDD samt leder det tekniska arbetet.
+Benjamin (??), Marlina (??), Carl (??)
+
+Testgruppen (TG): Testar systemet och ansvarar för att förbättringar sker.
+Namn, namn
+
+Projektgruppen: (PG): Planerar, leder och dokumenterar arbetet. 
+namn, namn
+
+------------------------------------------------------------------------------------
+tidplan
+	Här skall större delen av dokumentet in. Skattningar, Viktiga möten och granskningar, scheman, tabeller över tidsåtgång
+	Förslag för fas 1:
+	v4	
+	Fredag 27/1: Arbete och lunchmöte
+	
+	v5	
+	Måndag 30/1: Informellt granskningsmöte 
+	Onsdag 	1/2: Åtgärder efter granskning	
+	Torsdag 2/2: Forts åtgärder samt insändning till granskare vid kvällen
+	Fredag	3/2: Lunchmöte och mer arbetstid 
+
+	v6
+	Måndag 	6/2: Arbetstid och formell granskning efter 15:00 
+	Tisdag	7/2: Åtgärder efter formell granskning och smygstart fas 2 
+	Onsdag	8/2: Åtgärder forts och skicka in åtgärder till granskare 
+	Fredag 10/2: Formell omgranskning 
+
+	Notera: v6 saknar möten
+
+
+Grovt förslag till fas 2:
+	v7
+	Arbete med STLDD & SVVI
+	Måndags och Torsdagsmöte
+	
+	v8
+	Informell granskning vid måndagslunch
+	Åtgärder under måndag och tisdag
+	Skicka in dokument till granskning tisdag kväll
+	Smygstart fas 3 onsdag
+	Formell granskning torsdag
+	Möte efter formell granskning torsdag
+	åtgärder efter granskning fredag	
+
+	v9
+	forts åtgärder efter granskning måndag
+	-inte så diskret- smygstart av fas 3 onsdag
+	omgranskning torsdag
+
+Fas 3 är beroende på SRS och STLDD. PG inleder arbetet med SSD och PFR i fas 2.
+
+Skattad tidsåtgång: 1=3veckor, 2=4 veckor, 3=4veckor, 4=3veckor (notera att faserna har visst överlappning då projektet har 9 veckor och summan av skattningen är 14) 
+
+Tidsplan för varje fas/grupp:
+v3-v6 fas 1
+v6-v9 fas 2
+v8-v11 fas 3
+v19-v12 fas 4
+
+Tidsplan för varje dokument
+SDP, SVVS, SRS - v4 tom v6
+STLDD, SVVI - v6 tom v9
+SDDD v8 tom v11
+SVVR, v10 tom v12
+SSD, PFR v7 tom v12
+
+Skattad tidsåtgång för varje dokument:
+SDP, SVVS, SRS	30 timmar PG, TG, SG/UG 
+STLDD, SVVI 	56 timmar SG/UG, TG
+SDDD 		92 timmar UG
+SVVR		62 timmar TG
+SSD		62 timmar PG?????
+PFR 		92 timmar PG?????
+
+------------------------------------------------------------------------------------
+Standard och hjälpmedel
+	Specifikationer av programhjälpmedel, tekniker och metoder
+		Latex, googledrive, github, eclipse, discord, 
+Beskrivning av hjälpmedel, metoder, standarder:
+För kommunikation kommer hjälpmedlen Github, Discord och gmail användas
+Github som central lagring av alla mötesprotokoll, dokument och all kod.
+Discord som informell textkommunikation i hela gruppen.
+gmail för att annonsera viktigare information eller större stycken av arbetsinformation.
+Google docs
+Latex/texlive
+
+	Design- och kodningsstandarder
+		"Designen följer SDL88" <---- Stulet och va?
+		Variabelnamn skall vara självförklarande och på engelska
+
+------------------------------------------------------------------------------------
+
+
+Beskrivning av konfigurationsstyrningen: ?????????????????????????????????????
+
+		
+konfigurationshantering
+	projektbibliotek
+		En/Flera repositories på github där dokument är uppdelade efter följande system: ------HAR EJ BESLUTATS ÄNNU-----------	
+	Benämning av versioner
+		0.1 - första 0.2 andra iterationen osv, 1.0 sätts efter godkänd granskning	
+	fel- och ändringshantering
+		!STULET!	
+		"Formell ändringshantering inkluderar ett dokumenterat ändringsförslag (som reaktion på en problemrapport), en dokumenterad 			utvärdering, ett beslut (godkänns eller avslås), en plan för hur ändringen skall genomföras, samt en uppföljning av att 		ändringen blivit genomförd."
+
+		Krävs endast för dokument redan lagda i baseline.
+		
+		Ändringshanteringen skall garantera att:
+			en konfigurationsenhet endast endras enligt överenskommelse
+			en konfigurationsenhet endast accepteras om alla ändringar är utförda
+
+
+------------------------------------------------------------------------------------
+
+_____________________________________________________________________________________
+Dessa stycken är ej med i exempel-SDP:n:
+
+
+
+De ground rules som vedertagits är:
+	Kunna begära ack för viktig info på discord
+		Vid viktig info via discord förväntas ack inom 24h, även mejl.
+	Arbete sker på arbetsdagar, inte helger, såvida inte annats sägs.
+	Kolla mejl varje arbetsdag.
+	Självansvar att hålla sig informerad och informera.
+	Meddela när man inte kan komma på möte.
+	Alla skall läsa alla dokument.
+
+
+Uppföljning och kvalitetsutvärderingsprocess:
+Möten kommer ske två ggr om veckan där framstegen diskuteras.
+I övrigt kommer alla undergrupper dela arbetsrum vilket gör att alla grupper är intimt medvetna om hur arbetet fortskrider.
+Om arbetet går snabbare än beräknat kommer faser och dokument tidigareläggas.
+Om arbetet går långsammare än beräknat kommer vi hantera situationen beroende på dess natur.
+  Vid omgranskning/omarbete kommer vi sträva efter att ha så mycket av gruppen som möjligt fortsätta med arbetet på de delar som är stadigast
+  Vid tidsbrist i programmeringen kommer SG och PG sättas in som programmerare
+  Vid tidsbrist i testningen (Något vi förutser) kommer utvecklare sättas in som testare
+Projektets kvalité kommer försäkras genom de informella granskningar som kommer ske enligt schemat (minst en per fas) och genom testning.
+Denna testning kommer att utföras av UG (unit-tests) och TG (black-box testning).
+
+
+Riskanalys:
+Risker innefattar: 
+	Kollaps av kommunikationssystem		låg, medel
+	Konflikter				hög, medel-låg
+	Sjukdomsfrånvaro			medel, medel
+	Större omarbeten efter granskningar	hög, låg
+	Att ryssen kommer			låg, hög
+	
+Från boken:
+	Arbetskraftsfrånvaro 			Hög, hög
+	Orealistiskt schema			låg, hög (låg risk då uppgiften har anpassats för kursen)
+	Utvecklar fel funkioner			medel, medel
+	Utvecklar fel användarinterface		medel, låg
+	"Gold plating"				låg, medel
+Från boken 2:
+	Risk för låg prestanda: Låg, låg
+	Brist på rätt utbildad personal: Låg, hög (låg risk då kursen är anpassad för utbildningen)
+	Oväntat hög komplexitet av systemet: låg, hög (igen, då uppgiften är anpassad för oss)
+	Personalslitage(?): medel, medel
+	Oklara krav: medel, medel
+
+
+
+
+
+
